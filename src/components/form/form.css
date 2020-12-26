@@ -1,0 +1,33 @@
+.main-form {
+    padding:20px;
+    display:grid;
+    grid-template-columns: auto auto auto auto;
+    width:500px;
+    gap:20px;
+
+}
+#img
+{
+    grid-column-start: 1;
+    grid-column-end: 5;
+    width:200px;
+
+}
+input {
+width: 289px;
+height: 40px;
+background: #FFFFFF;
+border: 1px solid rgba(33, 33, 33, 0.35);
+border-radius: 2px;
+font-family:"Ubuntu Mono";
+padding-left:10px;
+outline:0;
+}
+#button_form{
+    width: 289px;
+height: 40px;
+background: #212121;
+border-radius: 2px;
+font-size:20px;
+color:white;
+}

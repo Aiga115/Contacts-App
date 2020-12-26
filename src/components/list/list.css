@@ -1,0 +1,74 @@
+.contact-list{
+    width: 90vw;
+    margin: 0 auto;
+    max-width: 1170px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    grid-column-gap: 1.5rem;
+    grid-row-gap: 2rem;
+    
+}
+#image {
+    width: 250px;
+    height: 134px;
+    border-radius: 4px 4px 0px 0px;
+   
+}
+
+.contact-list__card{
+    display:flex;
+    flex-direction:column;
+    justify-items: left;
+    gap:1px;
+    background: #FFFFFF;
+    box-shadow: 1px 1px 3px rgba(33, 33, 33, 0.25);
+    border-radius: 4px;
+    
+    
+}
+
+.contact-list__card__info{
+       
+    display:flex;
+    flex-direction:column;  
+
+}
+h1{
+    font-size:20px;
+    font-family:"Ubuntu Mono";
+}
+.info-element{
+    display:flex;
+    flex-direction:row;
+    gap:5px;
+    font-size:12px;
+    font-weight:bold;
+    font-family:"Ubuntu Mono";
+    align-items: center;
+    text-align:center;
+    
+    
+}
+.info-element img{
+    height: 14px;
+}
+ul{
+    padding-left:0px;
+}
+
+li{
+    list-style:none;
+    padding-left:10px;
+   
+}
+button{
+    float:right;
+    width: 95px;
+    height: 21px;
+    background: #212121;
+    border-radius: 2px;
+    border:none;
+    color:white;
+    cursor:pointer;
+    font-family:"Ubuntu Mono";
+}
